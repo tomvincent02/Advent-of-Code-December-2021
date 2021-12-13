@@ -69,11 +69,22 @@ def factorial(num):
 print(factorial(10))
 
 def product(lst):
+    num = 1
     if len(lst) == 0:
-        return 1
+        return num
+    if len(lst) == 1:
+        return lst[0]
     else:
-        for item in lst:
-            num = item * product(lst[lst[item + 1]]) #this line needs help
-    return num
+        return lst[len(lst) -1] * product(lst[:len(lst)-1])
 
-print(product([2,3,4]))
+
+print(product([2,3,4,5,6]))
+
+def backwards(word):
+    reverse = ''
+    if len(word) == 0:
+        return reverse
+    else:
+        return reverse.append(word[-1]) + backwards(word[:len(word)-1])
+
+print(backwards('same'))
