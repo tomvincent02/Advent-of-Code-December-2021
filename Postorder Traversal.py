@@ -1,6 +1,3 @@
-# Hello-World
-INTRODUCTION
-
 #Inorder traversal
 
 class Graph_search_methods:
@@ -17,7 +14,7 @@ class Graph_search_methods:
             else: #desired_node < start_node
                 #go to the right of the start_node
                 pre_order(graph, name_type, right_node, desired_node)
-                
+
         return 'Found' , desired_node
 
     def post_order(self, graph, name_type):
@@ -26,4 +23,4 @@ class Graph_search_methods:
 
 
     def in_order(self, graph, name_type):
-    
+
