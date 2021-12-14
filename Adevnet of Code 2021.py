@@ -14,9 +14,6 @@ new = []
 
 #print(new)
 
-
-
-
 object = [1,2,3,4,5,6,7,8,9,8]
 
 def increase(lst):
@@ -31,60 +28,74 @@ def increase(lst):
     return count
 #dont know how to import data
 
-print(increase(object))
+#print(increase(object))
 
 #day 2 Dive!
 
 class Submarine:
-    def __init__(self,initial_x,initial_y):
+    def __init__(self, initial_x, initial_y):
         self._initial_x = initial_x
         self._initial_y = initial_y
 
     def forward(self, f_value):
-        return (self._initial_x + f_value)
+        self._initial_x = self._initial_x + f_value
 
     def up(self, d_value):
-        return (self._initial_y - d_value)
+        self._initial_y =  self._initial_y - d_value
 
     def down(self, d_value):
-        return (self._initial_y + d_value)
+        self._initial_y = (self._initial_y + d_value)
 
     def get_position(self):
         return self._initial_x, self._initial_y
 
 germans = Submarine(0,0)
 germans.forward(5)
-print(germans)
-print(germans.forward(10))
+germans.forward(10)
+print(germans.get_position())
+
  #dont know to have the instance of the class remember input data
 
- #Recursive problems
+ #Day 3 Binary Diagonistic
 
-def factorial(num):
-    if num == 0:
-        return 1
-    else:
-        return factorial(num-1) * num
+def power_consumption(big_lst):
+    gamma_rate = []
+    gamma_value = 0
+    epsilon_rate = []
+    epsilon_value = 0
+    lst_1 = {0:0, 1: 0, 2:0, 3:0, 4:0}
+    bin_val = [16,8,4,2,1]
+    big_lst_length = len(big_lst)
+#counting mass list and adding to a list
+    for lst in big_lst:
+        for number in range(0, 5):
+            if lst[number] == 0:
+                lst_1[number] += 1
+            else:
+                pass
+#checking to see if the binary number should be 0 or 1 and add to gamma
+    for value in lst_1:
+        if lst_1[value] >= big_lst_length / 2:
+            gamma_rate.append(0)
+        else:
+            gamma_rate.append(1)
+#converting to binary
+    for idx in gamma_rate:
+        for each in range(len(bin_val)-1):
+            if idx == 1:
+                gamma_value += bin_val[each]
+                break
+            else:
+                epsilon_value += bin_val[each]
+                break
+    return (gamma_value * epsilon_value)
 
-print(factorial(10))
-
-def product(lst):
-    num = 1
-    if len(lst) == 0:
-        return num
-    if len(lst) == 1:
-        return lst[0]
-    else:
-        return lst[len(lst) -1] * product(lst[:len(lst)-1])
+print(power_consumption([[0,1,1,1,1],[0,0,1,1,1]]))
 
 
-print(product([2,3,4,5,6]))
 
-def backwards(word):
-    reverse = ''
-    if len(word) == 0:
-        return reverse
-    else:
-        return reverse.append(word[-1]) + backwards(word[:len(word)-1])
 
-print(backwards('same'))
+
+
+
+
