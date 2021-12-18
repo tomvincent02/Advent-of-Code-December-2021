@@ -122,3 +122,100 @@ print(int(distance_from_input(marc)))
 
 #Day 8
 #Seven Segment Search
+input = 'bafdec cgefd gcebd ebcgd gdea bgefdc bea efdbg befda daefb egf gcdfa fbdac gd gdbcaf dgb abcdfeg febdg ae daebf gfea bfdea gbdef fcdebg ebfcdg gcade cfegdb dcg fadgcbe ecadg bgefad fag feba abdcge becagdf bagefdc bafec ebf afdce egadfc gcbaef cdfeg efgacb gaecb efbca cdgae daebcg geafdc gdfab ge gcbdfa badfg dbegc dfbeac cafgbe db gafec aebdcgf agdbfe cfega ab bacde ba decgaf dgb gbcefad dbg bdagef dgcba abegd bdacg begda agfbe ebcgd dagcbe egbda acfeb fag dcgae acfbgd fdgcae cfgdea edfcab cefad fgb fegdba fbaedc aefcdb bcfead fgbcea eb aefdb acdbge bfacde bgade cedabf dfeg daebf dcbfga gf abgcf aegbfdc bedacgf edgabc da fcgad gdbfc afgbce dfgebc cbd fcbad cdae ecbgaf bgafecd cbea gacbdf adfegbc gcafbe fcbgae adecb gc acg dcafe begad cgfa dbagcf fcag fagc abfdc ebfagc agbdf dcfegba deafgc fabce da gbcdef bfedca gdcbf daceb ebgdfa cgfb edbfa dbagf gbd gfead ba gbac egbdc abd bd gebcadf dafcg bc cb fgdabc bc cfgbe egdafc fbgdec cbfea begda bc decab defcga dgfecba cgeb bfdecg aedbfg bgfaedc afbcg efdgc cgfeb abgde bgdae daefg cfbagd cefb dafce dcebaf edgcafb fdbgec faegd eafgd gbf dcfbea debcf gdefc gdc cfdbg dbfgc fcdegb debcga gfbcd ebagdc dabfgc dfbgc gfbdac dbgca edacfb dfeagb dgcfabe aceb edgcaf afdgeb gfcbad feadc fcead gcafd fcaeb dgcefa facedg bdgf ecfadg cgdb bcdg gcfead cadbg dacbg cbadg bagcef gefa abcef dbfcga fbeca ecgdbf gedcfa gdcef gcdef  aegdc bcgad dcgfe fedacb ebdcfa ecbfa fcb cbagde gafec gfdeb fadbcge dcegbf fbgcda bgcad faceb eagdcf cegda bd cgeda bd abgcfd cfgbad cgeabfd dfcga ebacf ab gdafbc cgfeab agfdc gefcadb gdfba gfcdbea bagedcf gebca fcadg gbd efbcd fegcda bfdacge fgcbd abf fba bdgaf fagbdc cfd dc bdgcf gcebf agfdc bda dab dbacfe gfeda deacgf ecgfda deagb ceafbg adgcf gdecb bf degfa cdaf aed bacdeg dcfabg dacgeb debc dcfbga cdefg fcebag ebdfca fcbega fedcab fabge agbefd fcdbae adgfce cfbd cdfage fgacde cgaebf beagfd cbgae efagbd dcefa agdce ga abge gaecfbd adbc fdcgeb adcb aecgbd dgcfb gcbaef bdfgc agdebc bfegdc dcafe debfgca fbed bgd db dfcbge dfbage deg efbadg fagceb cfgdeba dgbcf cedfab cbf feabd fdegb dbafe bfead ceba afcdg ecfbagd efbgac eafgd cbgd fagde edafg abefc cbfadg bcdfe cdeg dgefbc bfd db dacb bgcfe fgaedc cd dfgaeb abgdc bde deb bcadgef fcgbde cegfdb fdecga degfc gecabf dcgf fbc cdgf acgebf bdfaec adb agecbd dcebf afebdg adcfbeg gbefdc cedgb gebdc cefgad aegcb fgadce daegfc de eagbf fbcga dgecaf fce cbea degcfab dfaecg gdafbc ecafdg bdcga dfgca dagcb cfabgd gdbcfe decgf efdgc gd fgdcbae dbgfae bgdaef edgaf adgfb dbgaf fcedab dba dbcfga badcf aedcf bagdfc degacf egdb ebadf dfbeagc dcfgbe egdabfc cfg fdega bcd fdcbeg gedcfab gcdabf dcbfge fadceb cdegf befacdg dabfg eafbcd bgcda aefcbd dfebc cfdbag ebcfd aebf bagce dac gbcfad adfbe dgcbe beg adbec bfadce fdca agfbc fadbeg gefbca ecbad fbgced bcfdg fde fdgeabc bedgca ebdgca bdegc fdcgb bcefdg gdbcf acf gfaecdb gbfca fgc gebfa cbedfg ecad cd cgaef bcdfg caed ad cbgfd fdcab fegcab bdeaf bc dea cbdfe bage ea dbgfcea cbead gbfcea geadcfb baecgd acfgb adebgc fbdcega cgebaf fegacb efcagb ebafcg bedcafg eacgf gfdace gbf caged dfaecb gbef ecgbfad adefcg fgcbde afgdb ac gdfac gcdab fd fagec dgbea bagde aefdb abedf cegd abgcde gdb afcbd acbdf cfabd cafde gfdeba ebgacfd becdg ebfgd edgabc gabfc adfge afbcgde fbgca cedbg gdcbaf gecbd cgdafb fbdea dbegcf abfgced acfdbg aebgc eafc acgbe bcfadg ecadb agebd bgdaec decg eg eagcb gfacbed cgeba cegad cdaeg ecgad gedac abfge abdg begafc ad gfdeb ebdgf fcbgea aedbgcf fcbegd gfaed fea fea ed gced cdeg ebfgda gaebdc geba cbgade ebag dafgebc eacdg gc cbeg bfcage bfeg fcdbgae gabec cgdaf gdcba feagcb fdg ebgaf edfcgb fbage fge egfda gafde gbfa bfe dcgbae da cagbfed daeg faeb bdefag cgeabd egcabd gecfbd cfbegd cbafdg cegfbd abf efcab bgaedf gcaf bg gcdae bgdcfa fbgd ce edfcg bcef dcgbef fgabecd bacefg agdf befcd gfaceb ed gcbad begfac aef dfbea fdgabc afe cabed bdeac dcfeg eadcb cagbe cebdgfa edacfg bg decab aebcd cafbed cadbe fdbcg faegdb fgbae egcfbda cegbf bedgf de fadbg egfdc abcdef fegcd cgefadb bcafe adbegc cbfae defcgba dgabecf dcgfe db gcfdb cfge afedb aebcg gdbcafe cd dbc aedfbgc cdegba daecb acfdbe cadeb dba bedcf dcefb bfcaed abdefcg gedcfb cadbf fbacg bcgefd fbdce gc bcefd gcedfb fedacg cdbgf ed efabdgc edbgcaf dbgeac gacbf beafgc de dgcbfe ed daeg fa fbadcg gadfebc cafbdg cebfadg debga abgfd abgfecd fgedbc gbdcef ebag gfbced dgbaef dfc bfeac bacfe bface bc bfdeca faecb cdeab fagec gd dcgafe baged fbceagd ecd edc fbced gbaf aegcdb acdgef efbdg gdefb eafd baefdgc eag beagd edfbg degbac geafdcb dgefab ecabd dcaeb aedg efgba dcagefb efdacb efcba cabged gfabc fbacde aedcfb efa afe fe ebafg feb agfbe bgde acbgef facbe cgbafe deabf fb cadebf gdabfc cfbdga fdge gbecd egfbca cfadb be gabe bed fbdac fbadge cfgda gfbace egcaf efd daecf cdaefg eacbf fbdgcea ebafd gdefacb fdcag ebafgd bfdgea ecdfa bfdcega bfg cdgeb fdebg cebdg'
+
+new_input = input.split(' ')
+print(new_input)
+lst = {1:2,4:4,7:3,8:7}
+
+def number_times(segment, router):
+    count = 0
+    for string in segment:
+        for value in router.values():
+            if len(string) == value:
+                count += 1
+    return count
+print(number_times(new_input, lst))
+print(len(input))
+
+num_lists = int(4828)
+lists = []
+for p in range(num_lists):
+    lists.append([])
+print(lists)
+
+def format(segment,long):
+    for idx in range(len(segment)-1):
+        for letter in segment[idx]:
+            long[idx].append(letter)
+    return long
+new = format(new_input, lists)
+print(new)
+print('THIS') 
+#value_cost = {['c','a','g','e','d','b']: 0,['a','b']: 1 ,['g','c','d','f','a']: 2,['f','b','c','a','d']: 3,['e','a','f','b']: 4,['c','d','f','b','e']: 5,['c','d','f','g','e','b']: 6,['d','a','b']: 7,['a','c','e','d','g','f','b']: 8,['c','e','f','a','b','d']: 9}
+#
+#def final(segment, router):
+#    num_list = []
+#    for each in segment:
+#        for key in router.keys():
+#            if sorted(each) == sorted(key):
+#                num_list.append(router[key])
+#    return num_list
+#print(final(new, value_cost))
+#string = ['h','e','y']
+#print(sorted(string) == sorted(['e','h','y']))
+
+#Day 9 Smoke Basin
+# check where the low points are, up down left right
+#add one to all low points and add them all together to find risk check
+
+inputs = '2199943210398789492198567898928767896789989996567899999999999999999999999999999999999999999999999999'
+vale = []
+for val in inputs:
+    vale.append(int(val))
+print(vale)
+print(len(vale))
+
+#def low_points(numbers, column_length):
+#    min = []
+#    for idx in range(0,len(numbers)-1,1):
+#        if idx in range(1,10):
+#            if numbers[idx] < numbers[idx - 1] and numbers[idx] < numbers[idx + 1] and numbers[idx] < numbers[idx + column_length]:
+#                min.append(int(numbers[idx]))
+#                break
+#        if idx in range(11,len(numbers)/column_length),10):
+#            if numbers[idx] < numbers[idx - column_length] and numbers[idx] < numbers[idx + 1] and numbers[idx] < numbers[idx + column_length]:
+#                min.append(int(numbers[idx]))
+#                break
+#        if idx in range(10, len(numbers)/ column_length,10):
+#            if numbers[idx] < numbers[idx - 1] and numbers[idx] < numbers[idx - column_length] and numbers[idx] < numbers[idx + column_length]:
+#                    min.append(int(numbers[idx]))
+#                    break
+#        if idx in range(61,column_length * column_length, 1):
+#            if numbers[idx] < numbers[idx - 1] and numbers[idx] < numbers[idx - column_length] and numbers[idx] <numbers[idx + 1]:
+#                min.append(numbers[idx])
+#                break
+#        if idx == 0:
+#            if numbers[idx] < numbers[idx + column_length] and numbers[idx] <numbers[idx + 1]:
+#                min.append(numbers[idx])
+#                break
+#        if idx == column_length:
+#            if numbers[idx] < numbers[idx + column_length] and numbers[idx] <numbers[idx - 1]:
+#                min.append(numbers[idx])
+#                break
+#        if idx == (column_length * column_length - column_length + 1):
+#            if numbers[idx] < numbers[idx - column_length] and numbers[idx] <numbers[idx + 1]:
+#                min.append(numbers[idx])
+#                break
+#        if idx == (column_length * column_length - column_length + 1):
+#            if numbers[idx] < numbers[idx - column_length] and numbers[idx] <numbers[idx - 1]:
+#                min.append(numbers[idx])
+#                break
+#        else:
+#            if numbers[idx] < numbers[idx - 1] and numbers[idx] < numbers[idx - column_length] and numbers[idx] < numbers[idx + 1] and numbers[idx] < numbers[idx + column_length]:
+#                min.append(numbers[idx])
+#                break
+#    return min
+#
+#print(low_points(inputs,10))
+
