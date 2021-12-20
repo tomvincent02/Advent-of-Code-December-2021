@@ -219,3 +219,22 @@ print(len(vale))
 #
 #print(low_points(inputs,10))
 
+#day 10 Syntax Scoring
+string = '[({(<(())[]>[[{[]{<()<>>[(()[<>])]({[<{<<[]>>({([(<{}[<>[]}>{[]{[(<()>(((({<>}<{<{<>}{[]{[]{}[[<[([]))<([[{}[[()]]][{[{({}]{}}([{[{{{}}([]{<[[]]>}<{[{[{[]{()[[[][<(<(<(<{}))><([]([]()<{([([[(<>()){}]>(<<{{<{([{{}}[<[[[<>{}]]]>[]]'
+new_string = string.split()
+print(new_string)
+
+def syntax_checker(lst):
+    illegal_syntax = {')': 3, ']': 57, '}': 1197, '>': 25137}
+    for idx in range(0,len(lst)-1,1):
+        if idx != len(lst):
+            for each in range(idx + 1, len(idx)+1,1):
+                if lst[idx] == lst[each]:
+                    return syntax_checker(lst[0:idx:each:])
+                else:
+                    return lst
+        else:
+            return lst
+    return True
+
+print(syntax_checker([1,2,3,2,1]))
