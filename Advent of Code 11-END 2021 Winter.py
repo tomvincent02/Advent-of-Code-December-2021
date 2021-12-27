@@ -65,4 +65,15 @@
 
 #Day 14
 #Extended Polymerization
-#
+#symbol = grab first two letters
+def code_cracker(data):
+    dictionary = {'range of all values': 'b'}
+    for idx in range(0,len(data)-1,1):
+        symbol = str((data[idx]) +(data[idx + 1]))  #symbol equals the number and the next number
+        if symbol in dictionary:  #if symbol in dictionary
+            data.append(dictionary[symbol])[data[idx]] #manipulating the data input to add the symbols value after the data idx
+            if len(data) >= 2:
+                return code_cracker(data[symbol[1]:])
+            else:
+                return data
+print(code_cracker('range of all values'))
