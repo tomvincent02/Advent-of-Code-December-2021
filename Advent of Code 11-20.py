@@ -52,17 +52,13 @@ for idx in range(len(almost)-1):
     final.append(list(almost[idx] and almost[idx+1]))
 print(final)
 
+def fold_horizontally(lsts):
+    frank = []
+    value = len(lsts) - 1
+    for idx in range(0,len(lsts) / 2):
+        for num in zip(lsts[idx], lsts[value]):
+            frank.append(lst(num))
+    return frank
 
-    
 
-
-#def fold_horizontally(lsts):
-#    frank = []
-#    value = len(lsts) - 1
-#    for idx in range(0,len(lsts) / 2):
-#        for num in zip(lsts[idx], lsts[value]):
-#            frank.append(lst(num))
-#    return frank
-#
-#
-#print(fold_horizontally())
+print(fold_horizontally())
