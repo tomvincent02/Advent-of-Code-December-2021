@@ -31,5 +31,38 @@ def do_it_right(graph, num_of_iterations):
 print(do_it_right(insert, iteration))
 #print(low_points(inputs,10))
 
-#Day 12
+#Day 13
+#Transparent Origami
+#lst is a list of lists:
+#set an empty dictionary named frank
+#set value as the length of the lst minus 1
+#for line in range(0, len(lst)/2):
+    #line + lst[value] = frank #needs work
+    #value -= 1
+#return frank
+screw = '6,10,0,14,9,10,0,3,10,4,4,11,6,0,6,12,4,1,0,13,10,12,3,4,3,0,8,4,1,10,2,14,8,10,9,0'
+new = screw.split(',')
+print(new)
+almost= []
+for each in new:
+    almost.append(int(each))
+print(almost)
+final = []
+for idx in range(len(almost)-1):
+    final.append(list(almost[idx] and almost[idx+1]))
+print(final)
+
+
+    
+
+
+#def fold_horizontally(lsts):
+#    frank = []
+#    value = len(lsts) - 1
+#    for idx in range(0,len(lsts) / 2):
+#        for num in zip(lsts[idx], lsts[value]):
+#            frank.append(lst(num))
+#    return frank
 #
+#
+#print(fold_horizontally())
