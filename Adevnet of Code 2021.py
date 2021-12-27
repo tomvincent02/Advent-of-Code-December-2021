@@ -201,7 +201,3 @@ def final(empty_dict):
         if value >= 2:
             counter += 1
     return counter
-
-
-
-
