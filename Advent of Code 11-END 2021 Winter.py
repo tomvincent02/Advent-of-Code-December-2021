@@ -132,7 +132,31 @@
 #            update visited_tracker[0] with shortest_distacne and start_node = previous vertex
 #        if
 #    dijkstras_algorithm(shortest_distance,new_lst, graph)
-    
+
+
+#skipped day 16
+
+
+#Day 17
+#After each iteration the x position increased by x velo and same with y (0,0)
+#the x velo changes one closer to zero, does not change if it is zero
+#y velo decreases by 1
+
+#define a function that takes the (x, y velo, x and y position)
+    #empty list
+    #while the x,y position is not in the box located from (124,-86) to (174,-123):
+        #x_velo += 0
+        #y_velo += 0
+        #if x_velo > 1:
+            #-1 += x_velo
+        #if the x <1:
+            #1+=x_velo
+        #else:
+            #break
+        #-1 += y_velo
+        #add y_position to the empty list initialized
+        #return max(list)
+
 
         
 
