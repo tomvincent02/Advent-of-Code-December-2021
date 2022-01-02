@@ -156,7 +156,29 @@
         #-1 += y_velo
         #add y_position to the empty list initialized
         #return max(list)
-
+#
+#def max_height(x_velo, y_velo):
+#    """
+#    :param x_velo: positive value signifying how much the object is moving horizontal
+#    :param y_velo: vertical
+#    :return: max height of the given trajectory in the input
+#    """
+#    lst = []
+#    x_pos = 0
+#    y_pos = 0
+#    while not (124 < x_pos < 174) and not (-86 > y_pos > -123):
+#         += x_velo
+#        0 += y_velo
+#        if x_velo > 1:
+#            -1 += x_velo
+#        if x_velo < 1:
+#            1 += x_velo
+#        else:
+#            break
+#        -1 += y_velo
+#        lst.append(y_velo)
+#    return max(list)
+#print(max_height(10,10))
 
         
 
