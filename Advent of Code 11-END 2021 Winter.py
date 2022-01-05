@@ -180,7 +180,56 @@
 #    return max(list)
 #print(max_height(10,10))
 
-        
+#day 18
+
+def num_of_elements(item):
+    count = 0
+    for lst in range(0, item-1):
+        count += 1
+    return count
+
+def function(lst):
+    """
+    :param lst: a snailfish list that contains two parted lists and should contain no more than 4 list objects
+    :return: an updated lst of the snailfish, explodes the leftmost list if more than 4 objects, if any numbers in the
+    are greater than or equal to 10, then that list item should split into a list item of two elements
+    """
+
+        if num_of_elements(lst) > 4: # if there is a list inside the list that contains more than 4 items
+            exploded_lst = lst[0].copy() #grab the first item of that lst
+            lst[0].pop() #pop the leftmost part of the list
+                if lst[exploded_lst - 1] > 0: #if the lst has a number to the left of the exploded_lst
+                    #if the lst is at idx[0]:
+                        lst.append(0, exploded_lst + lst[exploded_lst[0]])
+                    #if the lst is at idx[len(lst):
+                        lst.append(exploded_lst + lst[exploded_lst ])
+                    lst.append(0,lst[0] + lst[0 - 1][1]) #adding to the lst the element to the left of the exploded_lst
+                if lst[exploded_lst + 1]
+        #split
+        for idx in range(0,len(lst)-1):
+            for element in lst[idx]:
+                if element > 9:
+                    if element % 2:
+                        lst.append([(float(element / 2), float(element / 2)])
+                    else:
+                        lst.append([(float((element - 1 / 2)), float(element + 1/ 2)])
+    return lst
+
+
+#explode
+if any nested lst within lst is greater than 4:
+    take the nested list and take the leftmost lst object in the nested list so long as the item is two numbers
+    save it content and pop the first list object
+    in the location of the object to add to the object before it if there is an object before it with the leftmost number of the saved content
+        saved content leftmost number and add to the number in the lst before
+    take the rightmost obejct of the saved list and add it to the next list to the left or idx + saved NUmber
+    else: #not a number to add before the saved content
+        append a new lst in the location of the previous lst and make the first number a zero
+
+
+
+
+
 
 
 
