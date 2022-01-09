@@ -1,0 +1,25 @@
+#day 20
+#grab the middle 3x3 and create a list appending each row to the end of an empty list
+#add the list with the # being 1 in binary
+#if the binary from the number above is equal to the 
+#image enhancement algotrithm is as followed
+    #
+
+
+def function (image_enhancement, input_image):
+    middle_input_image = [input_image[6:9], input_image[11:14], input_image[16:19]]
+    binary_value = 0
+    for element in range(0,len(middle_input_image),1):
+        if element[middle_input_image] == '#':
+            if element > 1:
+                value = element * 2
+                binary_value += value
+            if element == 0:
+                binary_value += 1
+    print(binary_value)
+    for idx in range(33, len(image_enhancement)):
+        if idx == range(binary_value -1, image_enhancement, binary_value):
+            if image_enhancement[idx] == '#':
+                #light pixel
+            else:
+                #dark pixel
